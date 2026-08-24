@@ -1,6 +1,6 @@
 <div align="center">
 
-# ARDUINO-PLC-TCP-DISPLAY
+# plc-siemens-arduino-display
 
 **An Arduino UNO that listens on TCP and turns what a Siemens PLC sends into readable digits on a shop-floor display.**
 
