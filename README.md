@@ -23,7 +23,7 @@ code of an active alarm — but no cheap way of putting them in front of an
 operator standing at the machine. An industrial HMI for a single value is
 expensive and slow to wire in.
 
-This is the low-cost alternative: an Arduino UNO with an Ethernet shield
+This is the low-cost alternative: an Arduino with an Ethernet shield
 sits on the plant network as a **TCP server**, the PLC connects to it as a
 client and streams short ASCII frames, and the Arduino decodes them onto a
 six-digit display. The same channel carries fault codes, and the firmware
