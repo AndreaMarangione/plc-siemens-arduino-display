@@ -73,10 +73,9 @@ reset command.
 
 | Part | Notes |
 | --- | --- |
-| **Arduino UNO** | Any ATmega328P board with the standard header layout |
-| **W5100 Ethernet shield** | Stacked on the UNO, driven over SPI |
+| **Arduino** | Any arduino board with the standard header layout |
+| **W5100 Ethernet shield** | driven over SPI |
 | **TM1637 6-digit display** | Common 4-wire module, driven at `BRIGHT_HIGH` |
-| **Digital output `D9`** | Held high while a value frame or an alarm is being processed, released on `f` |
 
 ---
 
