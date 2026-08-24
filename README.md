@@ -99,31 +99,6 @@ reset command.
 
 ---
 
-## Getting started
-
-**1. Install the display library**
-
-In the Arduino IDE, open *Library Manager* and install **TM1637TinyDisplay**,
-which provides the six-digit `TM1637TinyDisplay6` class. `SPI` and `Ethernet`
-ship with the IDE.
-
-**2. Check the network settings**
-
-Adjust `ip[]` and the `EthernetServer` port at the top of the sketch if the
-defaults clash with the plant addressing.
-
-**3. Upload the sketch**
-
-Select *Arduino UNO*, pick the serial port and upload.
-
-**4. Configure the PLC side**
-
-Open an active TCP connection towards `192.168.0.100:2001` and send the
-frames described above. Until the first byte arrives the display shows
-`no CON`, which doubles as a wiring check.
-
----
-
 ## Notes and limitations
 
 - **One byte per loop pass.** Throughput follows the loop rate rather than
