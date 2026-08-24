@@ -99,20 +99,6 @@ reset command.
 
 ---
 
-## Network configuration
-
-| Setting | Value |
-| --- | --- |
-| Role | TCP **server** (the PLC connects to it) |
-| MAC address | `DE:AD:BE:EF:FE:ED` |
-| IP address | `192.168.0.100`, static |
-| Port | `2001` |
-
-Both values live at the top of the sketch and can be changed to match the
-plant subnet; the PLC connection has to be updated to match.
-
----
-
 ## Getting started
 
 **1. Install the display library**
