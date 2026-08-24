@@ -69,24 +69,6 @@ reset command.
 
 ---
 
-## Display behaviour
-
-Three sources compete for the six digits, resolved by a fixed priority:
-
-1. **`no CON`** — the link watchdog has expired: no data from the PLC
-2. **`plcF0x`** — a fault code was received and latched
-3. **the encoder value** — steady while moving, blinking once at target
-
-The blink is a duty cycle of the main loop, roughly twenty passes blank
-against fifty passes lit, so a value that has just landed on target draws
-the eye without becoming unreadable.
-
-The watchdog counts loop passes in which no data is waiting; past one
-hundred it raises the internal fault and prints `no CON`. Any incoming byte
-resets it.
-
----
-
 ## Hardware
 
 | Part | Notes |
