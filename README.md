@@ -2,7 +2,7 @@
 
 # plc-siemens-arduino-display
 
-**An Arduino UNO that listens on TCP and turns what a Siemens PLC sends into readable digits on a shop-floor display.**
+**An Arduino that listens on TCP and turns what a Siemens PLC sends into readable digits on a shop-floor display.**
 
 Ethernet link between a SIMATIC S7-1500 and a 6-digit 7-segment module,
 carrying live encoder values, fault codes and link diagnostics.
