@@ -111,14 +111,6 @@ reset command.
   availability, so a PLC that is connected but idle also raises `no CON`.
 - **No authentication or encryption.** The device belongs on a segregated
   machine network, never on a routed or public one.
-- `Wire.h` is included and the serial port is opened at 9600 baud, but
-  neither is used by the current firmware.
-
----
-
-## Author
-
-Built by [@AndreaMarangione](https://github.com/AndreaMarangione).
 
 ---
 
