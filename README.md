@@ -14,11 +14,6 @@ carrying live encoder values, fault codes and link diagnostics.
 
 </div>
 
-> [!NOTE]
-> This repository holds the **Arduino side** of the link. The PLC program is
-> a plain TCP client that opens the connection and pushes the frames
-> described below; the STEP 7 project is not published here.
-
 ---
 
 ## What it is
