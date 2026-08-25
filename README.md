@@ -10,7 +10,6 @@ carrying live encoder values, fault codes and link diagnostics.
 ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![SIMATIC S7-1500](https://img.shields.io/badge/SIMATIC%20S7--1500-009999?style=flat-square&logo=siemens&logoColor=white)
-![Ethernet](https://img.shields.io/badge/W5100%20Ethernet-1F6FEB?style=flat-square)
 
 </div>
 
